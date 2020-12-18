@@ -1,5 +1,5 @@
 
-Chris Jean
+
 WordPress developer for iThemes, Linux fan, all-around nerd, and @chrisjean on Twitter
 Git Submodules: Adding, Using, Removing, Updating
 I’ve spent a little more than a month working with Git now. I can honestly say that while there are many things that I like about Git, there are just as many things that I personally find to be a pain in the butt.
