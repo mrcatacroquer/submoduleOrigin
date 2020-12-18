@@ -781,40 +781,4 @@ By default, a submodule is basically a bookmark to a specific commit of another 
 
 Starting with Git 1.8.2, a submodule can be set to track a specific branch rather than a specific commit. To do this, run a command such as the following:
 
-[chris@office ~/example]$ git submodule add -b master git@mygithost:submodule-repo submodule-dir
-Change “master” to be the specific branch that you want to have the submodule track.
-
-Then to pull down submodule updates, run the following:
-
-[chris@office ~/example]$ git submodule update --remote
-Reply
-Raj says:
-February 25, 2014 at 8:46 am
-Thanks for the reply.
-
-I have already added a submodule. Is it possible to change properties of that so that when I update, it will checkout required branch.
-
-Reply
-Chris Jean says:
-February 26, 2014 at 10:46 am
-I haven’t done much testing, but I think the only difference when supplying the “-b branch-name” argument is that the .gitmodules entry for the submodule has an additional line “branch = branch-name. So, you could try manually adding this and pushing up the change.
-
-If that fails, you might need to remove the submodule and add it back in using the additional argument.
-
-Reply
-Newer Comments »
-Leave a Reply
- Name (required)
-
- Mail (will not be published) (required)
-
- Website
-
-
- Notify me of followup comments via e-mail
-
-I believe that the free flow of information and ideas is key to the past and future development of mankind. Unless the content declares otherwise, the post content on this site is declared public domain (CC0 1.0 Universal) and can be used in any manner with or without attribution or permission. Of course, if you wish to give attribution back to me, that would be very nice. :)
-
-You can view this site's privacy policy here.
-
-This site is running WordPress with the iThemes Builder theme by iThemes.
+[chris@office ~/example]$ git submodule add -b master git@mygithost:submo
